@@ -1,2 +1,2 @@
 # lc-voting
- first laravel application
+ first laravel application under DEVEINT limited.
