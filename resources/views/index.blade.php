@@ -80,7 +80,7 @@
        </div><! --end ideas container -->
      
      </div><! --end ideass container -->
-     <! -- end of open post -->
+     <! -- end of openpost1-->
 
      <! --voted -->
      <div class="ideas-container space-y-6 my-6">
