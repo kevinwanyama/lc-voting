@@ -1,3 +1,52 @@
 @import 'tailwindcss/base';
 @import 'tailwindcss/components';
 @import 'tailwindcss/utilities';
+
+
+.comments-container::before{
+    position: absolute;
+    display: block;
+    top: 0;
+    left: -40px;
+    content: "";
+    width: 3px;
+    height: 100%;
+    background: rgb(202, 198, 198);
+    /* opacity: .07; */
+}
+
+.comment-container::before{
+    position: absolute;
+    display: block;
+    top: 57px;
+    content: "";
+    width: 23px;
+    height: 3px;
+    background: rgb(206, 204, 204);
+    left: -40px;
+    /* opacity: .07; */
+}
+
+.comment-container:last-child:after{
+ position: absolute;
+ display: block;
+ top: 6px;
+ left: -40px;
+ content: "";
+ width: 3px;
+ height:calc(100%-60px);
+ background: #1127a5;
+}
+
+.is-admin::before{
+    position: absolute;
+    width: 38px;
+    height: 38px;
+    border-radius: 38px;
+    border: 7px solid white;
+    box-shadow: 4px 4px 15px 0 rgba( 36, 37, 38, 0.08);
+    left: -58px;
+    background: purple;
+    opacity: 1;
+
+}
