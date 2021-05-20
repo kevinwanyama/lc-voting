@@ -9,11 +9,13 @@
     </div>
 
     <div class="idea-container hover:shadow-card transition duration-150 ease-in bg-white rounded-xl flex cursor-pointer mt-4 ">
-        <div class="flex flex-1 px-4 py-6">
-            <a href="#" class="flex-none">
+        <div class="flex flex-col md:flex-row flex-1 px-4 py-6">
+            <div class="flex-none md:mx-4">
+            <a href="#" class="flex-none mx-4">
                <img src="https://source.unsplash.com/200*200/?face&crop=face&v=1" alt="avatar" class="w-14 h-14 rounded-xl">
             </a>
-            <div class="w-full mx-4">
+        </div>
+            <div class="w-full mx-2 md:mx-4">
                <h4 class="text-xl font-semibold">
                   <a href="#" class="hover:underline">A random title can go here</a>
                </h4>
@@ -21,10 +23,10 @@
                      Lorem, ipsum dolor sit amet consectetur adipisicing elit. At sint omnis qui quasi distinctio dolor reprehenderit mollitia numquam aperiam libero odit, molestias, explicabo ut eligendi tempore aliquam in magni exercitationem tenetur nulla quae natus sequi! Adipisci eaque quae minima et illum, repellendus amet beatae autem totam voluptas inventore cupiditate quis.
                </div>
 
-                 <div class="flex items-center justify-between mt-6">
+                 <div class="flex flex-col md:flex-row md:items-center justify-between mt-6">
                    <div class="flex items-center text-xs text-gray-400 font-semibold space-x-2">
-                      <div class="font-bold text-gray-900">John Doe</div>
-                      <div>&bull;</div>
+                      <div class="hidden md:block font-bold text-gray-900">John Doe</div>
+                      <div class="hidden md:block>&bull;</div>
                       <div>10 hours ago</div>
                       <div>&bull;</div>
                       <div>Category</div>
@@ -33,7 +35,7 @@
                    </div>
                    <div 
                    x-data="{ isOpen: false }"
-                   class="flex items-center space-x-2"
+                   class="flex items-center space-x-2 mt-4 md:mt-0"
                      
                >
                      <div class="relative bg-gray-200 text-xxs font-bold uppercase leading-none rounded-full text-center w-28 h-7 py-2 px-4">Open</div>
