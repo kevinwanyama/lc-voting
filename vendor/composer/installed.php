@@ -1,12 +1,12 @@
 <?php return array (
   'root' => 
   array (
-    'pretty_version' => '1.0.0+no-version-set',
-    'version' => '1.0.0.0',
+    'pretty_version' => 'dev-main',
+    'version' => 'dev-main',
     'aliases' => 
     array (
     ),
-    'reference' => NULL,
+    'reference' => 'dda0c0fa49342911516ab87f8f6edb21bd6a4198',
     'name' => 'laravel/laravel',
   ),
   'versions' => 
@@ -20,6 +20,15 @@
       ),
       'reference' => '9cb795bf30988e8c96dd3c40623c48a877bc6714',
     ),
+    'barryvdh/laravel-debugbar' => 
+    array (
+      'pretty_version' => 'v3.5.7',
+      'version' => '3.5.7.0',
+      'aliases' => 
+      array (
+      ),
+      'reference' => '88fd9cfa144b06b2549e9d487fdaec68265e791e',
+    ),
     'brick/math' => 
     array (
       'pretty_version' => '0.9.2',
@@ -29,12 +38,30 @@
       ),
       'reference' => 'dff976c2f3487d42c1db75a3b180e2b9f0e72ce0',
     ),
+    'cocur/slugify' => 
+    array (
+      'pretty_version' => 'v4.0.0',
+      'version' => '4.0.0.0',
+      'aliases' => 
+      array (
+      ),
+      'reference' => '3f1ffc300f164f23abe8b64ffb3f92d35cec8307',
+    ),
     'cordoval/hamcrest-php' => 
     array (
       'replaced' => 
       array (
         0 => '*',
       ),
+    ),
+    'cviebrock/eloquent-sluggable' => 
+    array (
+      'pretty_version' => '8.0.7',
+      'version' => '8.0.7.0',
+      'aliases' => 
+      array (
+      ),
+      'reference' => '5cdf133881beff3adc1e0fb6549d14acc12a9480',
     ),
     'davedevelopment/hamcrest-php' => 
     array (
@@ -440,12 +467,12 @@
     ),
     'laravel/laravel' => 
     array (
-      'pretty_version' => '1.0.0+no-version-set',
-      'version' => '1.0.0.0',
+      'pretty_version' => 'dev-main',
+      'version' => 'dev-main',
       'aliases' => 
       array (
       ),
-      'reference' => NULL,
+      'reference' => 'dda0c0fa49342911516ab87f8f6edb21bd6a4198',
     ),
     'laravel/sail' => 
     array (
@@ -491,6 +518,24 @@
       array (
       ),
       'reference' => '3b9dff8aaf7323590c1d2e443db701eb1f9aa0d3',
+    ),
+    'livewire/livewire' => 
+    array (
+      'pretty_version' => 'v2.4.4',
+      'version' => '2.4.4.0',
+      'aliases' => 
+      array (
+      ),
+      'reference' => '33101c83b75728651b9e668a4559f97def7c9138',
+    ),
+    'maximebf/debugbar' => 
+    array (
+      'pretty_version' => 'v1.16.5',
+      'version' => '1.16.5.0',
+      'aliases' => 
+      array (
+      ),
+      'reference' => '6d51ee9e94cff14412783785e79a4e7ef97b9d62',
     ),
     'mockery/mockery' => 
     array (
@@ -986,6 +1031,15 @@
       array (
       ),
       'reference' => '59a684f5ac454f066ecbe6daecce6719aed283fb',
+    ),
+    'symfony/debug' => 
+    array (
+      'pretty_version' => 'v4.4.22',
+      'version' => '4.4.22.0',
+      'aliases' => 
+      array (
+      ),
+      'reference' => '45b2136377cca5f10af858968d6079a482bca473',
     ),
     'symfony/deprecation-contracts' => 
     array (
