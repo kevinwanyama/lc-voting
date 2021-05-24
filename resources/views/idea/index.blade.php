@@ -55,14 +55,14 @@
            <div class="hidden md:block border-r border-gray-100 px-5 py-8">
               <div class="text-center">
                  <div class="text-semibold text-2xl">21</div>
-                  <div class="text-gray-500">Votes</div>
+                  <div class="text-gray-500  py-2">Votes</div>
               </div>
               <button class="w-20 bg-gray-200 border border-gray-200 hover:border-gray-400 font-bold text-xxs uppercase rounded-xl transition duration-150 ease-in px-4 py-3">vote</button>
            </div>
            <div class="flex px-2 py-6">
             
                <a href="#" >
-                  <img src="https://source.unsplash.com/200*200/?face&crop=face&v=1" alt="avatar" class="w-14 h-14 rounded-xl">
+                  <img src="{{ $idea->user->getAvatar() }}" alt="avatar" class="w-14 h-14 rounded-xl">
                </a>
                <div class="w-full flex flex-col justify-between mx-2 md:mx-4">
                   <h4 class="text-xl font-semibold mt-2 md:mt-0">
