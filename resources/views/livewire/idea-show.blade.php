@@ -214,13 +214,15 @@
 
            @if ($hasVoted)
            <button
-               class="w-20 bg-blue text-white border border-blue-400 font-bold text-xxs uppercase rounded-xl
+               wire:click.prevent="vote" 
+               class="w-20 bg-blue-400 text-white border border-blue-400 font-bold text-xxs uppercase rounded-xl
                 hover:bg-blue-500-hover transition duration-150 ease-in px-4 py-3 -mx-5"
            >
                Voted
            </button>
        @else
            <button
+               wire:click.prevent="vote" 
                class="w-20 bg-gray-400 border border-gray-400 font-bold text-xxs uppercase rounded-xl 
                hover:border-gray-400 transition duration-150 ease-in px-4 py-3 -mx-5"
            >
