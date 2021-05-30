@@ -18,16 +18,7 @@ class IdeaController extends Controller
         
         // $ideas = Idea::simplePaginate(Idea::PAGINATION_COUNT);
         // return view('idea.index', compact('ideas'));
-        return view('idea.index',[
-            'ideas'=>Idea::with('user','category','status')
-            ->addSelect(['voted_by_user' => Vote::select('id')
-                    ->where('user_id', auth()->id())
-                    ->whereColumn('idea_id', 'ideas.id')
-                ])
-            ->withCount('votes')
-            ->orderBy('id', 'desc')
-            ->simplePaginate(Idea::PAGINATION_COUNT),
-        ]);
+        return view('idea.index');
     }
 
     /**
