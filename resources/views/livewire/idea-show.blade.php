@@ -43,7 +43,18 @@
                                    @click.away="isOpen = false" 
                                    @keydown.escape.window = "isOpen = false"
                                    class="absolute w-44 text-left font-semibold bg-white shadow-dialog rounded-xl py-3 ml-8">
-                                   <li><a href="#" class="hover:bg-gray-100 block transition duration-150 ease-in px-5 py-3">Edit Idea</a></li>
+                                   <li>
+                                    <a
+                                        href="#"
+                                        @click="
+                                            isOpen = false
+                                            $dispatch('custom-show-edit-modal')
+                                        "
+                                        class="hover:bg-gray-100 block transition duration-150 ease-in px-5 py-3"
+                                    >
+                                        Edit Idea
+                                    </a>
+                                </li>
                                     <li><a href="#" class="hover:bg-gray-100 block transition duration-150 ease-in px-5 py-3">Delete Idea</a></li>
                                    <li href="#" class="hover:bg-gray-100 block transition duration-150 ease-in py-3 px-5">Mark as Spam</li>
                                   
