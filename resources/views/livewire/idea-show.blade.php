@@ -30,7 +30,7 @@
                 </div>
                 <div 
                 x-data="{ isOpen: false }"
-                class="flex items-center space-x-2 mt-4 md:mt-0"
+                class="z-10 flex items-center space-x-2 mt-4 md:mt-0"
                 
             >
                 <div class="{{ $idea->status->classes }} text-xxs font-bold uppercase leading-none 
@@ -125,7 +125,7 @@
             @click="isOpen = !isOpen"
             type="button"
             class="flex items-center justify-center w-32 h-11 text-sm bg-blue-400 text-white
-            font-semibold rounded-xl border border-blue-400 hover:bg-blue-hover
+            font-semibold rounded-xl border border-blue-400 hover:bg-blue-500-hover
             transition duration-150 ease-in px-6 py-3"
             >
             Reply
@@ -146,7 +146,7 @@
                     <button 
                         type="button"
                         class="flex items-center justify-center w-1/2 h-11 text-sm bg-blue-400 text-white
-                        font-semibold rounded-xl border border-blue-400 hover:bg-blue-hover
+                        font-semibold rounded-xl border border-blue-400 hover:bg-blue-600-hover
                         transition duration-150 ease-in px-6 py-3"
                         >
                         Post Comment
